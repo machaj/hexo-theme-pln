@@ -5,8 +5,11 @@
     -o-transform: rotate($dg);
 }
 
+.page-footer {
+    margin-top: 4em;
+}
+
 .right-foot {
-    font-family: 'Pacifico', Arial, sans-serif;
     position: fixed;
     z-index: 0;
     transform-origin: top right;

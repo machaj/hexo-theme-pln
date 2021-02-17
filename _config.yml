@@ -1,9 +1,6 @@
 logo: XXX # top-left logo in index page
 
 more: # more links at top right index page
-  links: /links.html
-  Github: https://github.com/XXX/
-  rss: /rss2.xml
 
 footer_info: © XXX 2016-2020 # about info at right foot
 about: # about link at right foot

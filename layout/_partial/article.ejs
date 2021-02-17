@@ -27,7 +27,7 @@
     </div>
     <hr>
     <% if (page.toc === undefined ? theme.toc : page.toc) {  %>
-      <%- toc(page.content, {list_number: false}) %>
+      <%- toc(page.content, {list_number: true}) %>
     <% } %>
     <div class="picture-container">
       <% if (item.photos && item.photos.length){ %>
@@ -37,11 +37,5 @@
     <%- item.content %>
 
   </article>
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <div class="busuanzi center">
-    <%= __("page_read") %>:&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;・&nbsp;
-    <%= __("site_read") %>:&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;・&nbsp;
-    <%= __("site_visitor") %>:&nbsp;<span id="busuanzi_value_site_uv"></span>
-  </div>
 <% } %>
 <%- partial('post/comment') %>

@@ -10,7 +10,7 @@
   max-height: 100%;
 }
 
-.toc-text {
+.toc-text, .toc-number {
   color: #ACACAB;
   transition: color .3s;
 }
@@ -27,12 +27,14 @@
   font-weight: 300;
 }
 
-.toc:hover .toc-text {
-  color: #2570a1;
+.toc-link:hover {
+  .toc-text, .toc-number {
+    color: $theme;
+  }
 }
 
-.toc ol, ul {
-    padding-right: .5em;
+ol.toc-child {
+  margin-bottom: 0;
 }
 
 .toc-item:before {

@@ -1,5 +1,5 @@
 $bg: #F1F3F5;
-$theme: #555;
+$fg: #555;
 $c1: #547ab2;
 $c2: #547ab2;
 $c3: #3eacab;
@@ -10,6 +10,7 @@ $c7: #5a5050;
 
 figure {
     overflow-x: auto;
+    margin: 0;
 }
 
 td.gutter {
@@ -29,13 +30,13 @@ pre {
     border: 0;
     border-radius: 0px;
     tab-size: 4;
-    color: $theme;
+    color: $fg;
     background: transparent;
     background-size: auto 4em;
     background-origin: content-box;
     background-image: linear-gradient($bg 50%, transparent 0);
     .comment {
-        color: lighten($theme, 30%);
+        color: lighten($fg, 30%);
     }
     .line {
         height: 30px;

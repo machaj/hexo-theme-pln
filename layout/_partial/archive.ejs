@@ -43,7 +43,7 @@ if (page.archive){
             <ul class="archive-list">
                 <div class="archive-item">
                     <div class="archive-time">
-                      <%= date(post.date, 'MM-DD') %>
+                      <%= date(post.date, 'DD-MM') %>
                     </div>
                     <div class="archive-detail">
                       <a href="<%- url_for(post.path) %>" class="archive-link">
@@ -55,7 +55,7 @@ if (page.archive){
                 <% }else{ %>
                 <div class="archive-item">
                     <div class="archive-time">
-                      <%= date(post.date, 'MM-DD') %>
+                      <%= date(post.date, 'DD-MM') %>
                     </div>
                     <div class="archive-detail">
                       <a href="<%- url_for(post.path) %>" class="archive-link">
