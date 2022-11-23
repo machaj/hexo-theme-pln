@@ -10,6 +10,7 @@ $c7: #5a5050;
 
 figure {
     overflow-x: auto;
+    margin: 0;
 }
 
 td.gutter {
@@ -46,7 +47,7 @@ code {
     word-wrap: break-word;
     line-height: 2em;
     font-size: .97em;
-    color: $theme;
+    color: $c1;
     background: $bg;
 }
 
